@@ -12,7 +12,7 @@ output_file = "output_all.txt"
 driver = webdriver.Chrome()
 
 with open(output_file, "w", encoding="utf-8") as output:
-    for x in range(1000, 2000):
+    for x in range(1000,  3000#2000):
         url = base_url + str(x)
 
         try:
